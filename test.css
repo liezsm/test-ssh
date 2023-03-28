@@ -1,0 +1,19 @@
+/* -fs badges wont overlap with the product card for bigger screen */
+@media (min-width: 1400px) {
+  body.catalog-category-view
+    .products.wrapper.grid
+    .product-items
+    .product-item
+    .wishlist-section-display-on-hover
+    span.product-sash.new
+    img,
+  body.catalogsearch-result-index
+    .products.wrapper.grid
+    .product-items
+    .product-item
+    .wishlist-section-display-on-hover
+    span.product-sash.new
+    img {
+    margin: 0px;
+  }
+}
